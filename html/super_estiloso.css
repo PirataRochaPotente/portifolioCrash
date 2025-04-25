@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, sans-serif;
+    
+  }
+  body.caixa_preta {
+    background-color: black;
+    color: rgb(18, 187, 238); /* opcional, pra enxergar o texto no fundo preto */
+  }
+
+  .meunome{
+    width: 500px;
+  }
+
+  .caixinha {
+    border: 2px solid #000;     /* borda preta */
+    padding: 15px;              /* espaço interno entre a borda e o texto */
+    width: 300px;               /* largura da caixa */
+    background-color: #ff6522;  /* fundo clarinho (opcional) */
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 16px;
+    border-radius: 8px;         /* cantos levemente arredondados (opcional) */
+    text-align: center;
+    nav-down: 1000px;
+    color: black;
+  }
+  
+  .caixinha2 {
+    border: 2px solid #000;     /* borda preta */
+    padding: 15px;              /* espaço interno entre a borda e o texto */
+    width: 500px;               /* largura da caixa */
+    background-color: 	#768cdb;  /* fundo clarinho (opcional) */
+    font-family: "Tagesschrift", sans-serif;
+    font-size: 18px;
+    border-radius: 8px;         /* cantos levemente arredondados (opcional) */
+    text-align: center;
+    nav-down: 1000px;
+    color: black;
+  }
+
+
+  
+
+  .centraliza_tudo {
+    display: flex;
+    flex-direction: column; /* empilha verticalmente */
+    align-items: center;    /* centraliza horizontalmente */
+    justify-content: center;/* centraliza verticalmente se tiver altura */
+    
+  } 
+
+  .centraliza_tudo img 
+  
+  
+  /*.aboutme{
+    font-family: 'Roboto', sans-serif; *não é assim que faz* 
+  } */
+  .tamanho_imagem {
+    width: 800px; /* Tamanho da imagem */ 
+  margin-top: 100px;
+  
+  }
+
+  .tamanho_imagem img {
+    width: 200px;
+    margin-right: 50px; /* Adiciona espaçamento entre as imagens */
+    margin-left: 90px;
+    flex-direction: row;
+  }
+
+
+
+  .botões{
+    
+    flex-direction: row;
+    margin-right: 0px;
+    margin-left: 300px;
+  }
+  
+
+  .meu_botao {
+    position: relative;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 120px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    right: 200px;
+   
+  }
+  
+  /* transforma o link em um "botão"  */
+  .botao_link {
+    display: inline-block;
+    text-decoration: none; /*pra tirar aqiele sublinhado de link*/
+    color: black; 
+    font-family: "Coral Pixels", serif;
+    font-size: 20px;
+  }
+
+
+  
+.eucorrendo {
+  width: 100px; /* Tamanho da imagem */ 
+  margin-top: 250px;
+}
+.eucorrendo img {
+  width: 100%; /* Ajusta a imagem pra caber na div */
+}
+.eucorrendo {
+  position: absolute;
+  top: 620px; /* distância do topo */
+  right: 5px; /* distância da direita */
+}
+
+
+.outras_info{
+ position: relative;
+ text-align: right;   /*não mexe mais nisso pq tá perfeito*/
+ top: 100px;          /*e não tá mais dando erro*/
+ font-size: 20px;
+}
+
+.voltar{
+  position: relative;
+  text-align: right;  
+  right: 15px;
+  top: 90px;         
+  font-size: 22px;
+ }
+
+.setinha{
+ position:  relative;
+ top: 125px;
+}
+
+
+.super_body{
+  background-color: rgb(0, 0, 0);
+}
+footer {
+  font-family: 'Playwrite RO', serif;/* é assim que faz */
+  
+}
